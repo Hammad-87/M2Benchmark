@@ -7,6 +7,16 @@
       p.mb-0{
         font-size: 10;
       }
+      h3{
+        font-size: 18 !important;
+        color:grey;
+      }
+
+      /*@media screen and (max-width: 48em){
+        main{
+          text-align: justify;
+        }
+      }*/
     </style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -15,12 +25,82 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+    
     <main role="main" class="container">
-      <div class="container mx-auto" style="width: 800px;">
-        <h1>Account</h1>
+      <div class="container mx-auto" style="width: 850px;">
+        <h1 style="font-size: 28px;">Account</h1>
+        <hr>
+        <div class="row pb-3">
+          <div class="col-xs-4 col-sm-3">
+            <h3>Membership & Billing</h3>
+            <button class="px-4 py-1" style="font-size: 12px; border:thin;"type="button" onclick="alert('Membership Cancelled!')">Cancel Membership</button>
+          </div>
+          <div class="col-xs-8 col-sm-9">
+            <div class="row pb-3">
+              <div class="col-xs-12 col-sm-6">
+                <input type="text" id="fname" name="fname" value="student@strive.school" style="border:none;background-color: white; font-weight: 800; color:black;" disabled>
+              </div>
+              <div class="col-xs-12 col-sm-6 pb-2"style="text-align: right;">
+                <a href="" >Change account email</a>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <label class="mr-2 mb-0" style="color:grey;">Password:</label><input type="text" id="fname" name="fname" value="*******" style="border:none;background-color: white; color:grey;" disabled>
+              </div>
+              <div class="col-xs-12 col-sm-6 pb-2" style="text-align: right;">
+                <a href="" >Change password</a>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <label class="mr-2 mb-0"style="color:grey;">Phone Number:</label><input type="text" id="fname" name="fname" value="321 044 1279" style="border:none;background-color: white; color:grey;" disabled>
+              </div>
+              <div class="col-xs-12 col-sm-6 pb-2" style="text-align: right;">
+                <a href="" >Change phone number</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row pb-3">
+              <div class="col-xs-12 col-sm-6">
+                <label class="mr-2 mb-0"style="font-weight:800;">Paypal:</label><input type="text" id="fname" name="fname" value="admin@strive.school" style="border:none;background-color: white; color:grey;" disabled>
+              </div>
+              <div class="col-xs-12 col-sm-6 pb-2" style="text-align: right;">
+                <a href="" >Update payment method</a>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <p></p>
+              </div>
+              <div class="col-xs-12 col-sm-6 pb-2" style="text-align: right;">
+                <a href="" >Billing Details</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row pb-3">
+              <div class="col-xs-12 col-sm-6">
+                <p></p>
+              </div>
+              <div class="col-xs-12 col-sm-6 pb-2" style="text-align: right;">
+                <a href="" >Redeem gift card or promo code</a>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <p></p>
+              </div>
+              <div class="col-xs-12 col-sm-6 pb-2" style="text-align: right;">
+                <a href="" >Where to buy gift cards.</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        <hr>
+        <div class="row pb-3">
+          <div class="col-xs-4 col-sm-3">
+            <h3>Plan Details</h3>
+          </div>
+          
+        </div>
+        <hr>
+        </div>
+        
       </div>
     </main>
-    <footer class="footer fixed-bottom">
+    <footer class="footer sticky-bottom">
       <hr>
       <div class="container mx-auto" style="width: 1000px;">
         <div class="row pb-3">
